@@ -1,0 +1,253 @@
+.gif {
+    background-image: url('mainImgFolder/IndexBackground.gif');
+    background-size: cover;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: transparent;
+    justify-content: space-between;
+    margin-right: 19.7cm;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    gap: 1em;
+}
+
+.img {
+    width: 150px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    border: 5px solid purple;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover,
+.dropdown:hover .dropbtn {
+    background-color: purple;
+}
+
+.dropbtn {
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: purple;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 275px;
+}
+
+.btnplay {
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.playGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}   
+
+.btn2{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 275px;
+}
+
+.btnplay2 {
+    width: 250px;
+    height: 45px;
+    font-size: 30px;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+@font-face {
+    font-family: neon;
+    src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.neon {
+    font-family: neon;
+    color: #FB4264;
+    font-size: 36px;
+    /* line-height: 9vw; */
+    text-shadow: 0 0 1vw #F40A35;
+    font-weight: 300;
+}
+
+.flux {
+    font-family: neon;
+    color: #426DFB;
+    font-size: 42px;
+    /* line-height: 9vw; */
+    text-shadow: 0 0 1vw #2356FF;
+    font-weight: 300;
+}
+
+.neon {
+    animation: neon 2s ease infinite;
+    -moz-animation: neon 2s ease infinite;
+    -webkit-animation: neon 2s ease infinite;
+}
+
+@keyframes neon {
+
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .1vw .1vw .05vw #806914;
+        color: #FED128;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .1vw .1vw .05vw #40340A;
+        color: #806914;
+    }
+}
+
+.flux {
+    animation: flux 2s linear infinite;
+    -moz-animation: flux 2s linear infinite;
+    -webkit-animation: flux 2s linear infinite;
+    -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+
+    0%,
+    100% {
+        text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .1vw .1vw .05vw #147280;
+        color: #28D7FE;
+    }
+
+    50% {
+        text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .1vw .1vw .05vw #0A3940;
+        color: #146C80;
+    }
+}
+
+.gamePageBody {
+    background-color: #131316;
+    overflow: hidden;
+} 
+
+button {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.button {
+    background-color: blue;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: lightskyblue;
+}
+
+.buttonSpace{ 
+    display: flex;
+    justify-content: center;
+}
+
+.gameManual{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18vh;
+}
+
+.gameManualText{ 
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 5em;
+    font-weight:bold;
+}
